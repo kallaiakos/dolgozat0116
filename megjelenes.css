@@ -82,7 +82,7 @@ section ul{
     list-style-image: url(mikroszkop/mikroba.jpg);
     list-style-position: inside;
 }
-#div1{
+#div{
     grid-area: kep;
     padding: 10px;
     background-color: #1f7a7a;
@@ -93,7 +93,7 @@ section ul{
 #szoveg{
     grid-area: sz;
 }
-#szoveg2{
+#szovegtwo{
     grid-area: sz2;
 }
 aside{
