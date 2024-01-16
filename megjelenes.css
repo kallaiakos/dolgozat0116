@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(mikroszkop/hatter.jpg);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+    'h h h'
+    'n ar as'
+    'f f f';
+    background-color: #ffffe6;
+    font-family: 'Risque' cursive;
+}
+header{
+    grid-area: h;
+    font-family: 'Risque' cursive;
+    background-color: #1f7a7a;
+    color: #ffffe6;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80% auto;
+    font-size: 400%;
+
+}
+nav{
+    grid-area: n;
+    background-image: url(menu.png);
+    background-repeat: no-repeat;
+    background-color: #1f7a7a;
+    color: #ffffe6;
+
+}
+article{
+    grid-area: ar;
+
+}
+aside{
+    grid-area: as;
+    block-size: auto;
+    text-align: justify;
+    font-size: 85%;
+    padding: 12px;
+    margin: 0px;
+    text-decoration: none;
+
+}
+footer{
+    grid-area: f;
+    text-align: center;
+}
